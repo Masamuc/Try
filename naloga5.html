@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <title> Dynamic List with DOM</title>
+    <script src="naloga5.js" defer></script>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: blueviolet;
+            margin: 5px 0;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        lo:hover {
+            background-color: antiquewhite;
+        }
+   
+    </style>
+</head>
+<body>
+    <h1>Dynamic List</h1>
+    <input type="text" id="itemInput" placeholder="Enter new item">
+    <button id="addItemButton">Add item</button>
+    <ul id="itemList"></ul>
+</body>
+</html>
